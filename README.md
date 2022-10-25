@@ -63,12 +63,13 @@ The ```__unzip-all__``` folder name is set as a "constant" in the programme.
 
 # To run
 ```commandline
-python unzip-all.py --input-folder .\tests\test-files\test-001
+cd unzip-all
+python .\app\unzip-all.py --input-folder .\tests\test-files\test-001
 ```
 
 
 # Test
 
 Use the setup-test.bat file to re-set up the test files and folders.
-Runs on Windows 10.
+The setup tests files folders only runs on Windows 10.
 The re-run the programme as above.
